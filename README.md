@@ -28,12 +28,12 @@ The Euclidean distance is calculated for each alternative from:
 
 ### 6. **TOPSIS Score**
 The relative closeness to the ideal solution is computed using the formula:
-\[
-TOPSIS\_Score = \frac{D_{negative}}{D_{ideal} + D_{negative}}
-\]
+
+TOPSIS Score = D_negative / (D_ideal + D_negative)
+
 Where:
-- \(D_{ideal}\): Distance to the ideal solution.
-- \(D_{negative}\): Distance to the negative-ideal solution.
+- D_ideal: Distance to the ideal solution.
+- D_negative: Distance to the negative-ideal solution.
 
 ### 7. **Ranking**
 Alternatives are ranked based on their TOPSIS scores. A higher score indicates a better alternative.
